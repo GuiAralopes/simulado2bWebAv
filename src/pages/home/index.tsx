@@ -29,11 +29,11 @@ export default function Home() {
 
         <Stack spacing={6} direction={'row'}>
           <Button as='a'
-            href='https://github.com/DevTrzJbr/SimWebAvanc02'
+            href='https://github.com/GuiAralopes/simulado2bWebAv'
             rounded={'full'}
             px={6}
-            colorScheme={'orange'}
-            _hover={{ bg: 'brand.800' }}>
+            colorScheme={'cyan'}
+            _hover={{ bg: 'brand.100' }}>
             Repositório GitHub
           </Button>
 
