@@ -25,6 +25,8 @@ export default function blogPostWithImage() {
             boxShadow={'2xl'}
             rounded={'md'}
             p={6}
+            border="1px solid"
+            borderColor={useColorModeValue('gray.200', 'gray.700')} // Cor da borda
           >
 
             <Box h={'210px'} bg={'gray.100'} mt={-6} mx={-6} mb={6} pos={'relative'}>
@@ -59,6 +61,8 @@ export default function blogPostWithImage() {
             boxShadow={'2xl'}
             rounded={'md'}
             p={6}
+            border="1px solid"
+            borderColor={useColorModeValue('gray.200', 'gray.700')} // Cor da borda
           >
 
             <Box h={'210px'} bg={'gray.100'} mt={-6} mx={-6} mb={6} pos={'relative'}>
