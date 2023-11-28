@@ -6,6 +6,7 @@ import {
   Stack,
   Text,
   Button,
+  Image
 } from '@chakra-ui/react'
 
 
@@ -23,6 +24,13 @@ export default function Home() {
           lineHeight={'110%'}>
           Programação Avançada para Web Simulado 2º Bimestre
         </Heading>
+        {/* Adicione o componente Image abaixo da Heading */}
+        <Image
+          src='/nextlogo.png'
+          alt='Descrição da imagem'
+          maxW='150px' // ajuste o tamanho conforme necessário
+          mt={4} // ajuste a margem superior conforme necessário
+        />
         <Text color={'gray.500'} maxW={'3xl'}>
           O Projeto foi desenvolvido com Next.js, Chakra UI e Typescript.
         </Text>
