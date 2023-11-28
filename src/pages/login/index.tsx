@@ -55,7 +55,7 @@ export default function Login() {
                   align={'start'}
                   justify={'space-between'}>
                   <Checkbox>Lembrar de mim</Checkbox>
-                  <Link href='/recover' color={'brand.500'}>Esquecei minha senha</Link>
+                  <Link href='/recover' color={'brand.500'}>Esqueci minha senha</Link>
                 </Stack>
                 <Button as={'a'}
                   p={3}

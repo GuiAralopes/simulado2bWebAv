@@ -37,7 +37,7 @@ export default function Recover() {
           <Text
             fontSize={{ base: 'sm', sm: 'md' }}
             color={useColorModeValue('gray.800', 'gray.400')}>
-            Sem problemas, basta nos informar seu e-mail e enviaremos um link de recuperação.
+            Nos informe seu email e enviaremos um link de recuperacão
           </Text>
           <FormControl id="email">
             <Input
