@@ -1,19 +1,17 @@
-'use client'
-
 import NavBar from '@/components/navbar'
 import {
   Button,
-  FormControl,
   Flex,
   Heading,
-  Input,
+  PinInput,
+  PinInputField,
   Stack,
   Text,
   useColorModeValue,
-  Link,
+  Link
 } from '@chakra-ui/react'
 
-export default function Recover() {
+export default function RecoverWithPin() {
   return (
     <>
       <NavBar />
@@ -37,25 +35,31 @@ export default function Recover() {
           <Text
             fontSize={{ base: 'sm', sm: 'md' }}
             color={useColorModeValue('gray.800', 'gray.400')}>
-            Nos informe seu email e enviaremos um código de recuperacão
+            Nos informe seu email e enviaremos um código de recuperação
           </Text>
-          <FormControl id="email">
-            <Input
-              size="lg"
-              placeholder="Digite seu e-mail"
-              _placeholder={{ color: 'gray.500' }}
-              type="email"
-            />
-          </FormControl>
           <Stack spacing={6}>
-            <Button as={'a'}
+          <Flex flexDirection="row"
+          justifyContent = "center">
+            
+              <PinInput
+                size="lg"
+                onComplete={(value) => console.log(value)}
+              >
+                <PinInputField marginRight="15px"/>
+                <PinInputField marginRight="15px"/>
+                <PinInputField marginRight="15px"/>
+                <PinInputField marginRight="15px"/>
+              </PinInput>
+            </Flex>
+            <Button
+              as={'a'}
               p={2}
               borderRadius={'4px'}
               textAlign={'center'}
               size="lg"
               bg={'brand.500'}
               color={'white'}
-              href={'/sec-pin'}
+              href={'/forgot-password'}
               _hover={{
                 bg: 'brand.200',
               }}>
