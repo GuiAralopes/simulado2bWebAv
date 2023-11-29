@@ -23,17 +23,17 @@ export default function Home() {
           fontWeight={600}
           fontSize={{ base: '3xl', sm: '3xl', md: '3xl' }}
           lineHeight={'110%'}>
-          Programação Avançada para Web Simulado 2º Bimestre
+          Portal de Gerenciamento UVV Inova Week 2023
         </Heading>
         {/* Adicione o componente Image abaixo da Heading */}
         <Image
-          src='/nextlogo.png'
-          alt='Descrição da imagem'
+          src='/uvv-removebg-preview.png'
+          alt='logo uvv'
           maxW='150px' // ajuste o tamanho conforme necessário
           mt={4} // ajuste a margem superior conforme necessário
         />
-        <Text color={'gray.500'} maxW={'3xl'}>
-          O Projeto foi desenvolvido com Next.js, Chakra UI e Typescript.
+        <Text color={'gray.900'} maxW={'4xl'}>
+        O maior evento universitário de inovação e empreendedorismo do ES!
         </Text>
 
         <Stack spacing={6} direction={'row'}>
@@ -43,7 +43,7 @@ export default function Home() {
             px={6}
             colorScheme={'cyan'}
             _hover={{ bg: 'brand.100' }}>
-            Repositório GitHub
+            Repositório do projeto
           </Button>
 
         </Stack>

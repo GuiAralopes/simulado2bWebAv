@@ -32,7 +32,7 @@ export default function blogPostWithImage() {
             <Box h={'210px'} bg={'gray.100'} mt={-6} mx={-6} mb={6} pos={'relative'}>
               <Image
                 src={
-                  '/UVVblue.jpg'
+                  '/inovaweek-tratada.jpg'
                 }
                 fill
                 alt="Example"
@@ -46,9 +46,9 @@ export default function blogPostWithImage() {
                 Post 01
               </Heading>
               <Text color={'gray.500'}>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                A Universidade Vila Velha traz novamente uma edição do Inovaweek! 
+                Realize a inscrição do seu grupo e aproveite o maior evento
+                de inovação universitário!  
               </Text>
             </Stack>
           </Box>
