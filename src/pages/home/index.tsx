@@ -32,7 +32,7 @@ export default function Home() {
           maxW='150px' // ajuste o tamanho conforme necessário
           mt={4} // ajuste a margem superior conforme necessário
         />
-        <Text color={'gray.900'} maxW={'4xl'}>
+        <Text color={'gray.900'} maxW={'4x4'}>
         O maior evento universitário de inovação e empreendedorismo do ES!
         </Text>
 
@@ -41,6 +41,7 @@ export default function Home() {
             href='https://github.com/GuiAralopes/simulado2bWebAv'
             rounded={'full'}
             px={6}
+            color={'white'}
             colorScheme={'cyan'}
             _hover={{ bg: 'brand.100' }}>
             Repositório do projeto

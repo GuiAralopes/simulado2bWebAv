@@ -46,10 +46,11 @@ export default function NavBar() {
             fontSize={'sm'}
             fontWeight={600}
             color={'white'}
+            colorScheme={'cyan'}
             bg={'brand.400'}
             href={'/registro'}
             _hover={{
-              bg: 'brand.200',
+              bg: 'brand.100',
             }}>
             Criar Conta
           </Button>
