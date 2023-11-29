@@ -32,7 +32,7 @@ export default function Home() {
           maxW='150px' // ajuste o tamanho conforme necessário
           mt={4} // ajuste a margem superior conforme necessário
         />
-        <Text color={'gray.900'} maxW={'4x4'}>
+        <Text color={'gray.900'} maxW={'4x2'} fontSize={{ sm: '3xl'}}>
         O maior evento universitário de inovação e empreendedorismo do ES!
         </Text>
 
