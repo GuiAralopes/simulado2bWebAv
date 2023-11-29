@@ -30,12 +30,12 @@ export default function RecoverWithPin() {
           p={6}
           my={12}>
           <Heading lineHeight={1.1} fontSize={{ base: '2xl', md: '3xl' }}>
-            Esqueceu sua senha?
+            Recuperar sua conta
           </Heading>
           <Text
             fontSize={{ base: 'sm', sm: 'md' }}
             color={useColorModeValue('gray.800', 'gray.400')}>
-            Nos informe seu email e enviaremos um código de recuperação
+            Digite o PIN enviado para seu endereço de email.
           </Text>
           <Stack spacing={6}>
           <Flex flexDirection="row"
